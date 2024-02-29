@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+.home{
+    display: flex;
+    font-size: 40px;
+    justify-content: space-between;
+    width: 192px;
+    line-height: 60px;
+    align-items: center;
+    height: 60px;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.navlinks a{
+    font-size: 22px;
+    text-decoration: none;
+    color:#242323;
+}
+
+.home p{
+    width: 192px;
+    height: 60px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
+
+body{
+    margin: 3%;
+    background-color: white;
+}
+
+#infotext {
+    font-size: 96px;
+    width: 474px;
+    height: 473px;
+    top: 241px;
+    left: 219px;
+    font-weight: 900;
+    color: #000000;
+    width: 10%;
+}
+
+#infodesc {
+    width: 606px;
+    height: 58px;
+    top: 754px;
+    left: 219px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color:#787878;
+}
+
+.photos{
+    display: flex;
+    margin: 6px;
+}
+
+.brand{
+    width: 1920px;
+    height: 186px;
+    top: 1079px;
+}
+
+.photo9{
+    width:871px;
+    height: 784px;
+    top: 232px;
+    margin-inline: 44%;
+    margin-bottom: 28%;
+}
+
+.photos1{
+    display: flex;
+    width: 835px;
+    height: 679px;
+    top: 3817px;
+    left: 100px;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.photos2{
+    display: flex;
+    width: 507px;
+    height: 246px;
+    gap: 41px;
+    margin: 12px;   
+}
+
+.photos3{
+    display: flex;
+    width: 204px;
+    height: 71px;
+    border-radius: 10px;
+}
+
+.photos4{
+    width:1920px;
+    height:623px;
+    top: 5646px;
+    margin-top: 20%;
+}
+
+.photos5{
+    width:327.89px;
+    height:710px;
+    top:4716px;
+    left:1220.9px;
+    border-radius:34.98px;
+    border:22.58px;
+    color:#FFFFFF;
+}
+
+#HOME1{
+    font-size: 40px;
+    color:#EAEAEA;
+    width: 192px;
+    height: 52.4px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+#infomain{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color:yellowgreen;
+}
+
+.good{
+    display: flex;
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    color: #000000;
+}
+
+.page{
+    width:105px;
+    font-size:24px ;
+    height:28px ;
+    font-weight:400;
+    line-height:40px;
+    color: green;
+    margin-left: 38%;
+}
+
+.page1{
+    width:66px;
+    font-size:24px;
+    height:28px;
+    font-weight:400;
+    line-height:40px;
+    color:rosybrown;
+    top:60px;
+    margin-left: 38%;
+}
+
+.page2{
+    width:120px;
+    font-size:24px;
+    height:28px;
+    font-weight:400;
+    line-height:40px;
+    color: rebeccapurple;
+    top:120px;
+    margin-left: 38%;
+}
+
+.page3{
+    width:88px;
+    font-size:24px;
+    height:28px ;
+    font-weight:400;
+    line-height:40px;
+    color: wheat;
+    top:185px;
+    margin-left: 38%;
+}
+
+.page4{
+    width:86px;
+    height:28px;
+    font-weight:400;
+    font-size:24px;
+    line-height:40px;
+    color: aqua;
+    top:245px;
+    margin-left: 38%;
+}
+
+.work{
+    width:115px;
+    height:28px;
+    margin-left: 48%;
+    font-weight:400;
+    font-size:24px;
+    line-height:40px;
+    color:black;
+}
+
+.work1{
+    width:167px;
+    height:27px;
+    top: 62px;
+    margin-left: 48%;
+    font-weight:400;
+    font-size:24px;
+    line-height:40px;
+    color:red;
+}
+
+.work2{
+    width:175px;
+    height:26px;
+    top: 123px;
+    margin-left: 48%;
+    font-weight:400;
+    font-size:24px;
+    line-height:40px;
+    color:teal;
+}
+
+.work3{
+    width:117px;
+    height:28px;
+    top: 183px;
+    margin-left: 48%;
+    font-weight: 400;
+    font-size:24px;
+    line-height:40px;
+    color:yellow;
+}
+
+.work4{
+    width:58px;
+    height:28px;
+    top: 243px;
+    margin-left: 48%;
+    font-weight:400;
+    font-size:24px;
+    line-height:40px;
+    color:indianred;
+}
+
+.work5{
+    width: 60px;
+    height: 28px;
+    margin-left: 56%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color:olive;
+}
+
+.work6{
+    width: 215px;
+    height: 28px;
+    top: 62px;
+    margin-left:56%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color:purple;
+}
+
+.work7{
+    width: 154px;
+    height: 28px;
+    top: 121px;
+    margin-left: 56%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color:sienna;
+}
+
+.work8{
+    width: 1920px;
+    height: 545px;
+    top: 6269px;
+}
+
+.color{
+    background-color: black;
+}
+
+.web{
+    width: 445px;
+    height: 82px;
+    top: 844px;
+    left: 225px;
+    gap: 34px;
+    margin: 3%;
+}
+
+.web1{
+    width: 411px;
+    height: 57.94px;
+    top: 1334px;
+    left: 104px;
+    margin: 3%;
+}
+
+.web2{
+    width: 484px;
+    height: 704px;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.web3{
+    width: 484px;
+    height: 704px;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.web4{
+    width: 490px;
+    height: 704px;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.web5{
+    width: 1924px;
+    height: 968px;
+    top: 2491px;
+    left: -4px;
+    margin: 3%;
+}
+
+.web6{
+    width: 511px;
+    height: 63.96px;
+    top: 3649px;
+    left: 100px;
+}
+
+.home2{
+    width: 192px;
+    height: 52.4px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    color:red;
+}
