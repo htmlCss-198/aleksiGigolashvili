@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./login3.css">
+        <script src="https://kit.fontawesome.com/c9f5871d83.js"      crossorigin="anonymous"></script>
+        <title>login3</title>
+    </head>
+    <body>
+        <header class="header">
+    <nav class="nav">
+        <a href="https://www.pexels.com/search/mountain/">Home</a>
+        <a href="https://www.countryliving.com/life/g32106474/mountain-quotes/">About</a>
+        <a href="https://www.mountainservicecompany.com/">Service</a>
+        <a href="https://mountainfreaks.ge/en/contact/">Contact</a>
+        <a href="https://www.quora.com/What-is-your-favorite-mountain">Favourite</a>
+        </nav>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .mobileVersion {
+                max-width: 400px;
+                margin: auto;
+                background-color:powderblue;
+                color: black;
+                border-radius: 35px;
+                margin-left:20px ;
+            }
+
+            .upperNav {
+                overflow: hidden;
+                background-color:black;
+                position: relative;
+            }
+
+            .upperNav #myNavLinks {
+                display: none;
+            }
+
+            .upperNav a {
+                color: white;
+                padding: 14px 17px;
+                text-decoration: none;
+                font-size: 18px;
+                display: block;
+            }
+            
+            .upperNav .icon {
+                background: black;
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .upperNav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .active {
+                background-color:slategray;
+                color: white;
+            }
+            p, h3 {
+                padding: 15px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="mobileVersion">
+            <div class="upperNav">
+                <a href="#homepage" class="active">Information</a>
+                <div id="myNavLinks">
+                    <a href="#Info">Info</a>
+                    <a href="#Ourdroos">Outdoors</a>
+                    <a href="#Climb">Climb </a>
+                    <a href="#Sunset">Sunset</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div style="padding-left: 15px;">
+                <p>We’ll use this info to personalize your experience. You’ll always be able to both download and upload photos and videos, no matter which option you choose.</p>
+            </div>
+        </div>
+        <script>
+            function toggleMenu() {
+                let links = document.getElementById("myNavLinks");
+                
+                if (links.style.display === "block") {
+                    links.style.display = "none";
+                } else {
+                    links.style.display = "block";
+                }
+            }
+        </script>
+        <div class="search">
+            <input type="text" placeholder="search...">
+            <a> <i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </header>
+        <div class="background"></div>
+        <section class="home">
+        <div class="content">
+        <a href="#" class="logo"> mountain</a>
+        <h2>Welcome!</h2>
+        <h3>To my Website</h3>
+        <pre>We invite you to contact us for help with any issue 
+            and also to visit us at our office in Stepantsminda. 
+            You can find our office at 44 Alexander Kazbegi Street.
+            instagram: mountainfreaks.ge 
+            facebook: Mountain Freaks – Mountain Travel & Adventure Agency
+        </pre>
+            <div class="icon">
+            <i class="fa-brands fa-instagram"></i> 
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+        <div class="login">
+            <h2>Sign In</h2>
+            <div class="input">
+            <input type="text" class="input1" placeholder="Email" required>
+            <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input">
+            <input type="password" class="input1" placeholder="password" required>
+            <i class="fa-solid fa-lock"></i> 
+            </div>
+        <div class="check">
+        <label> <input type="checkbox">Remember me </label>
+        <a href="#"> Forgot password?</a>
+        </div>
+        <div class="button">
+        <button class="btn"> Sign In </button>
+        </div>
+        <div class="Sign-up">
+            <p> Don't have an account?</p>
+            <a href="#"> Sign up </a>
+            </div>
+        </div>
+        </section>
+    </body>
+</html>
